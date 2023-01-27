@@ -1,0 +1,15 @@
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/bin/Debug/net7.0/elearning
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/bin/Debug/net7.0/elearning.deps.json
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/bin/Debug/net7.0/elearning.runtimeconfig.json
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/bin/Debug/net7.0/elearning.dll
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/bin/Debug/net7.0/elearning.pdb
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.csproj.AssemblyReference.cache
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.AssemblyInfoInputs.cache
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.AssemblyInfo.cs
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.csproj.CoreCompileInputs.cache
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.dll
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/refint/elearning.dll
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.pdb
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/elearning.genruntimeconfig.cache
+/Users/pappol/Desktop/uni/SIV/Object_tracking_into_metaverse/elearning/obj/Debug/net7.0/ref/elearning.dll
