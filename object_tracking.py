@@ -79,7 +79,7 @@ cv2.setTrackbarPos('area','image',50)
 cv2.setTrackbarPos('circularity','image',45)
 
 lower_red = np.array([0,130,135])
-upper_red = np.array([20,215,255])
+upper_red = np.array([7,215,255])
 #green
 lower_green = np.array([40,100,30])
 upper_green = np.array([80,255,255])
@@ -90,7 +90,7 @@ upper_blue = np.array([140,255,255])
 lower_orange = np.array([7,100,150])
 upper_orange = np.array([20,255,255])
 #yellow
-lower_yellow = np.array([20,100,30])
+lower_yellow = np.array([22,100,30])
 upper_yellow = np.array([40,255,255])
 #white
 lower_white = np.array([0,0,200])
