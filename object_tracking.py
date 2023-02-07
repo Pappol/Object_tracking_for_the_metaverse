@@ -44,12 +44,8 @@ upper_orange = np.array([20,255,255])
 lower_yellow = np.array([20,100,30])
 upper_yellow = np.array([40,255,255])
 #white
-lower_white = np.array([0,0,0])
-upper_white = np.array([50,50,255])
-
-#save the video
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi', fourcc, 20.0, (720,480))
+lower_white = np.array([0,0,235])
+upper_white = np.array([255,20,255])
 
 
 #start the loop
@@ -86,15 +82,12 @@ while cap.isOpened():
 
     #show the frames
     cv2.imshow('frame', frame)
-    #save the video
-    out.write(frame)
 
     #press q to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 #release the capture
-out.release()
 cap.release()
 cv2.destroyAllWindows()
 
