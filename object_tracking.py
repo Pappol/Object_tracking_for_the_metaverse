@@ -20,13 +20,13 @@ def color_contorns(hsv, lower, upper, color):
     mask= cv2.inRange(hsv, lower, upper)
     #dilate the mask
     kernel = np.ones((5,5),np.uint8)
-    #mask = cv2.dilate(mask, kernel, iterations = 1)
+    mask = cv2.dilate(mask, kernel, iterations = 1)
     #find the contours
     contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     # keep only 20% of the contours
     contours = sorted(contours, key=cv2.contourArea, reverse=True)[:int(len(contours)*area) if int(len(contours)*area) > 0 else 1]
     # filter by boundary length
-    contours = [cnt for cnt in contours if length_l < cv2.arcLength(cnt, True) < length_u]
+    contours = [cnt for cnt in contours if cv2.arcLength(cnt, True) > 100]
     # filter by circularity
     contours = [cnt for cnt in contours if circ < circularity(cnt)]
     #find the center of the contours
@@ -36,7 +36,7 @@ def color_contorns(hsv, lower, upper, color):
             cx = int(M['m10']/M['m00'])
             cy = int(M['m01']/M['m00'])
             #draw a circle on the center of the contours
-            #cv2.circle(frame, (cx, cy), 10, color, -1)
+            cv2.circle(frame, (cx, cy), 10, (0,0,0), -1)
         #draw the contours
         cv2.drawContours(frame, contours, -1, color, 3)
     return frame
@@ -46,14 +46,10 @@ cv2.namedWindow('image')
 #start the video capture
 cap = cv2.VideoCapture(0)
 
-cv2.createTrackbar('area','image',0,100, dummy)
-cv2.createTrackbar('length_u','image',300,1000, dummy)
-cv2.createTrackbar('length_l','image',0,400, dummy)
-cv2.createTrackbar('circularity','image',0,100, dummy)
-cv2.setTrackbarPos('area','image',20)
-cv2.setTrackbarPos('length_l','image',100)
-cv2.setTrackbarPos('length_u','image',100)
-cv2.setTrackbarPos('circularity','image',40)
+cv2.createTrackbar('area','image',50,100, dummy)
+cv2.createTrackbar('circularity','image',45,100, dummy)
+cv2.setTrackbarPos('area','image',50)
+cv2.setTrackbarPos('circularity','image',45)
 
 lower_red = np.array([0,130,135])
 upper_red = np.array([20,215,255])
@@ -78,7 +74,7 @@ while cap.isOpened():
     #read the frames
     ret, frame = cap.read()
     # gaussian blur
-    frame = cv2.GaussianBlur(frame, (5, 5), 2)
+    frame = cv2.GaussianBlur(frame, (7, 7), 2)
     #convert the frames to HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
@@ -107,7 +103,7 @@ while cap.isOpened():
     #find the contours for green
     frame = color_contorns(hsv, lower_green, upper_green, (0,255,0))
     #find the contours for blue
-    frame = color_contorns(hsv, lower_blue, upper_blue, (255,0,0))
+    frame = color_contorns(hsv, lower_blue, upper_blue, (255,10,10))
     #find the contours for orange
     frame = color_contorns(hsv, lower_orange, upper_orange, (0,165,255))
     #find the contours for yellow
