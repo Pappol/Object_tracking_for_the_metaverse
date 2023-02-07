@@ -23,6 +23,10 @@ def color_contorns(hsv, lower, upper, color):
 
 #start the video capture
 cap = cv2.VideoCapture(0)
+
+#import video
+#cap = cv2.VideoCapture('video.mp4')
+
 #create a filter for different colors
 #red
 lower_red = np.array([0,100,150])
@@ -42,6 +46,11 @@ upper_yellow = np.array([40,255,255])
 #white
 lower_white = np.array([0,0,0])
 upper_white = np.array([50,50,255])
+
+#save the video
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
+out = cv2.VideoWriter('output.avi', fourcc, 20.0, (720,480))
+
 
 #start the loop
 while cap.isOpened():
@@ -77,10 +86,15 @@ while cap.isOpened():
 
     #show the frames
     cv2.imshow('frame', frame)
-    #cv2.imshow('mask', mask)
+    #save the video
+    out.write(frame)
+
     #press q to exit
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+
 #release the capture
+out.release()
 cap.release()
 cv2.destroyAllWindows()
+
