@@ -19,9 +19,8 @@ def color_contorns(hsv, lower, upper, color):
     #create a mask
     mask= cv2.inRange(hsv, lower, upper)
     #dilate the mask
-    kernel = np.ones((7,7),np.uint8)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+    kernel = np.ones((5,5),np.uint8)
+    mask = cv2.dilate(mask, kernel, iterations = 1)
     #find the contours
     contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     # keep only 20% of the contours
@@ -46,7 +45,7 @@ def color_contorns(hsv, lower, upper, color):
 #name the window
 cv2.namedWindow('image')
 #start the video capture
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 
 cv2.createTrackbar('area','image',0,100, dummy)
 cv2.createTrackbar('length_u','image',0,400, dummy)
