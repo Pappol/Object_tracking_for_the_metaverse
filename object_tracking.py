@@ -7,11 +7,10 @@ def color_contorns(hsv, lower, upper, color):
     mask= cv2.inRange(hsv, lower, upper)
     #find the contours
     contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-    #find the center of the contours
+    #sort the contours by area
+    contours = sorted(contours, key=cv2.contourArea, reverse=True)[:int (0.1*len(contours))]
     for cnt in contours:
         #filter for small areas
-        if cv2.contourArea(cnt) < 100:
-            continue
         M = cv2.moments(cnt)
         if M['m00'] != 0:
             cx = int(M['m10']/M['m00'])
@@ -26,8 +25,8 @@ def color_contorns(hsv, lower, upper, color):
 cap = cv2.VideoCapture(0)
 #create a filter for different colors
 #red
-lower_red = np.array([160,100,30])
-upper_red = np.array([180,255,255])
+lower_red = np.array([0,100,150])
+upper_red = np.array([7,255,255])
 #green
 lower_green = np.array([40,100,30])
 upper_green = np.array([80,255,255])
@@ -35,14 +34,14 @@ upper_green = np.array([80,255,255])
 lower_blue = np.array([100,100,30])
 upper_blue = np.array([140,255,255])
 #orange
-lower_orange = np.array([10,100,30])
-upper_orange = np.array([25,255,255])
+lower_orange = np.array([7,100,150])
+upper_orange = np.array([20,255,255])
 #yellow
 lower_yellow = np.array([20,100,30])
 upper_yellow = np.array([40,255,255])
 #white
 lower_white = np.array([0,0,0])
-upper_white = np.array([0,0,255])
+upper_white = np.array([50,50,255])
 
 #start the loop
 while cap.isOpened():
