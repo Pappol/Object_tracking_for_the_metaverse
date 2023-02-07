@@ -44,8 +44,8 @@ upper_orange = np.array([20,255,255])
 lower_yellow = np.array([20,100,30])
 upper_yellow = np.array([40,255,255])
 #white
-lower_white = np.array([0,0,235])
-upper_white = np.array([255,20,255])
+lower_white = np.array([0,0,200])
+upper_white = np.array([255,40,255])
 
 
 #start the loop
