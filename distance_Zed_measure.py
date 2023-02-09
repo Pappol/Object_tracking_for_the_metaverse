@@ -4,19 +4,6 @@ import pyzed.sl as sl
 import math 
 import cv2 
  
-# Create a ZED camera 
-zed = sl.Camera() 
-init_params = sl.InitParameters() 
-init_params.sdk_verbose = True # Enable verbose logging 
-init_params.depth_mode = sl.DEPTH_MODE.PERFORMANCE # Set the depth mode to performance (fastest) 
-init_params.coordinate_units = sl.UNIT.MILLIMETER  # Use millimeter units 
- 
-# Open the camera 
-err = zed.open(init_params) 
-if err != sl.ERROR_CODE.SUCCESS: 
-    print("Error {}, exit program".format(err)) # Display the error 
-    exit() 
- 
 print("Running Depth Sensing sample ... Press 'Esc' to quit") 
  
 input_type = sl.InputType() 
