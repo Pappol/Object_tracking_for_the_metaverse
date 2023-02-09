@@ -51,7 +51,6 @@ while True:
         zed.retrieve_image(image, sl.VIEW.LEFT) # Get the left image 
         zed.retrieve_measure(depth, sl.MEASURE.DEPTH) # Retrieve depth matrix. Depth is aligned on the left RGB image 
         zed.retrieve_measure(point_cloud, sl.MEASURE.XYZRGBA) # Retrieve colored point cloud 
-        i = i + 1 
         # Get and print distance value in mm at the center of the image 
     # We measure the distance camera - object using Euclidean distance 
     x = round(image.get_width() / 2) 
