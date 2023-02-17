@@ -59,3 +59,9 @@ sysinfo.txt
 crashlytics-build.properties
 
 .vscode
+
+# Camera parameters
+
+cube_tracking/calib_data
+*/__pycache__
+*/calib_data
