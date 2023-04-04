@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.rigidbodyobjecttrackig.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\DISI\\Documents\\SIV_Franzin_Parola\\Rigid-Body Object Tracking\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Rigid-Body Object Trackig [Testing]"
+        }
+      }
+    }
+  ]
+}

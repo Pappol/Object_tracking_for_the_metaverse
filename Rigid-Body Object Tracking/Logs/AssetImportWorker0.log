@@ -1,0 +1,965 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2728; Version 2009; 64bit' Language: 'en' Physical Memory: 261829 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/DISI/Documents/SIV_Franzin_Parola/Rigid-Body Object Tracking
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53487
+Successfully changed project path to: C:/Users/DISI/Documents/SIV_Franzin_Parola/Rigid-Body Object Tracking
+C:/Users/DISI/Documents/SIV_Franzin_Parola/Rigid-Body Object Tracking
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.31 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/DISI/Documents/SIV_Franzin_Parola/Rigid-Body Object Tracking/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   
+    VRAM:     24340 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001601 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.06 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.39 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2448 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.9 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 3.289400 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.567700 ms  DeleteObjects: 0.168900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/arena.fbx
+  artifactKey: Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arena.fbx using Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ed898e4c0983b0cb54bbd9bdc3ab44') in 0.159590 seconds
+  Import took 0.164029 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.1 MB.
+System memory in use after: 112.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2924.
+Total: 3.133700 ms (FindLiveObjects: 0.474500 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.374200 ms  DeleteObjects: 0.132200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.843909 seconds.
+  path: Assets/arena.fbx
+  artifactKey: Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arena.fbx using Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab514934b885037e9789d26bfa8e1f2') in 0.114331 seconds
+  Import took 0.120695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.335466 seconds.
+  path: Assets/arena.fbx
+  artifactKey: Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arena.fbx using Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da62c66544255ee944c27fd054a9329a') in 0.019227 seconds
+  Import took 0.024046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001043 seconds.
+  path: Assets/arena.fbx
+  artifactKey: Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arena.fbx using Guid(27d47e317c8d7dd4c927c101640c9a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da62c66544255ee944c27fd054a9329a') in 0.023303 seconds
+  Import took 0.027530 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004932 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.2 MB.
+System memory in use after: 112.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2929.
+Total: 3.331900 ms (FindLiveObjects: 0.439000 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.605800 ms  DeleteObjects: 0.153200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 431.444680 seconds.
+  path: Assets/Models/stadium.dae
+  artifactKey: Guid(c9db4100d9d3dd041991fd3d7b8abc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/stadium.dae using Guid(c9db4100d9d3dd041991fd3d7b8abc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8849133e549e0e40fe8553e1571a7f29') in 0.980913 seconds
+  Import took 0.989503 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004512 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2934.
+Total: 3.235100 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.540100 ms  DeleteObjects: 0.156400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2938.
+Total: 3.235500 ms (FindLiveObjects: 0.454300 ms CreateObjectMapping: 0.164700 ms MarkObjects: 2.471100 ms  DeleteObjects: 0.144500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.915 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2942.
+Total: 3.232000 ms (FindLiveObjects: 0.407200 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.574400 ms  DeleteObjects: 0.134400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2946.
+Total: 3.307200 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.596400 ms  DeleteObjects: 0.177500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2950.
+Total: 3.523000 ms (FindLiveObjects: 0.417600 ms CreateObjectMapping: 0.138500 ms MarkObjects: 2.814100 ms  DeleteObjects: 0.151100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.942 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2954.
+Total: 3.309800 ms (FindLiveObjects: 0.488400 ms CreateObjectMapping: 0.142200 ms MarkObjects: 2.539300 ms  DeleteObjects: 0.138600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2958.
+Total: 3.292800 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.611900 ms  DeleteObjects: 0.162800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.5 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2962.
+Total: 3.082600 ms (FindLiveObjects: 0.391800 ms CreateObjectMapping: 0.115100 ms MarkObjects: 2.437800 ms  DeleteObjects: 0.136800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2966.
+Total: 3.311600 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.134200 ms MarkObjects: 2.618200 ms  DeleteObjects: 0.141300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2970.
+Total: 3.325500 ms (FindLiveObjects: 0.434800 ms CreateObjectMapping: 0.152000 ms MarkObjects: 2.591400 ms  DeleteObjects: 0.145300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.46 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2974.
+Total: 3.674400 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.964200 ms  DeleteObjects: 0.158200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 3.279900 ms (FindLiveObjects: 0.427200 ms CreateObjectMapping: 0.136400 ms MarkObjects: 2.561600 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.6 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2982.
+Total: 3.418700 ms (FindLiveObjects: 0.449700 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.615000 ms  DeleteObjects: 0.173200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 11 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2366 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.7 MB.
+System memory in use after: 112.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2986.
+Total: 3.026200 ms (FindLiveObjects: 0.423700 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.326900 ms  DeleteObjects: 0.138500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2712.985661 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Material
+  artifactKey: Guid(6cfc8768d9d25e44da732c8a0aaefddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Material using Guid(6cfc8768d9d25e44da732c8a0aaefddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43814e792f6da9f5704c63dcdb45b9f') in 0.015644 seconds
+  Import took 0.021621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004990 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Material
+  artifactKey: Guid(6cfc8768d9d25e44da732c8a0aaefddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Material using Guid(6cfc8768d9d25e44da732c8a0aaefddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43814e792f6da9f5704c63dcdb45b9f') in 0.001976 seconds
+  Import took 0.006297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066084 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Material/ground.mat
+  artifactKey: Guid(c1dd5b72eef51f64b89c7f4cbb1999aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Material/ground.mat using Guid(c1dd5b72eef51f64b89c7f4cbb1999aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02894dc73c100ecc878bc8dbfaf9c20e') in 0.217568 seconds
+  Import took 0.222198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.098980 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Material/ground.mat
+  artifactKey: Guid(c1dd5b72eef51f64b89c7f4cbb1999aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Material/ground.mat using Guid(c1dd5b72eef51f64b89c7f4cbb1999aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e914af8c8b3fa08d7e140dbd9957d') in 0.017024 seconds
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.386088 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(86104d16464dc5c4f8fe50083ba01a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(86104d16464dc5c4f8fe50083ba01a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea177973a5ed4fa0b853448e70c19f8d') in 0.007038 seconds
+  Import took 0.011658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.365089 seconds.
+  path: Assets/Oculus/OculusProjectConfig.asset
+  artifactKey: Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20767868a295f3c5d237d25b00d6c2b6') in 0.009792 seconds
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278497 seconds.
+  path: Assets/Oculus/LipSync
+  artifactKey: Guid(869689b68571c6948aa30f45321601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync using Guid(869689b68571c6948aa30f45321601bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40cdcc9a13c7797a6d948cb0ee0128d') in 0.007801 seconds
+  Import took 0.012096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.10 ms.
+Instance of Unity.XR.Oculus.OculusLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type Unity.XR.Oculus.OculusLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Oculus for package Oculus XR Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of Unity.XR.Oculus.OculusSettings couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:183)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:130)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type Unity.XR.Oculus.OculusSettings. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeSettingsFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:183)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:130)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Oculus XR Plugin package Initialization not completed. You will need to create any instances of the loaders and settings manually before you can use the intended XR Plug-in Package.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:120)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 120)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.7 MB.
+System memory in use after: 113.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3017.
+Total: 3.536900 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.849800 ms  DeleteObjects: 0.143400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.163340 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42.png
+  artifactKey: Guid(e8c2ef2de35b98e44af944d95a74703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42.png using Guid(e8c2ef2de35b98e44af944d95a74703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f42d5e91ff7e007fe1bb88584e8cb1') in 0.076403 seconds
+  Import took 0.082020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
+  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ea13188aba44c91e5dbf24174b58cc') in 0.015250 seconds
+  Import took 0.019660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42bluefade.psd
+  artifactKey: Guid(7c01c54158cf2b341b5a060c2644e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42bluefade.psd using Guid(7c01c54158cf2b341b5a060c2644e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba2abc18f9b635e258b1c4899278d6') in 0.024664 seconds
+  Import took 0.028970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42redfade.png
+  artifactKey: Guid(5ef6caecde66e7c48bb0fd7fd82c568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42redfade.png using Guid(5ef6caecde66e7c48bb0fd7fd82c568a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81091fc9f9473de2755934dce0cf772b') in 0.024252 seconds
+  Import took 0.028577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ffc960f634cf34850aff1563fad104') in 0.014520 seconds
+  Import took 0.018975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png
+  artifactKey: Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png using Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922b189d28cdef11d8be0705fca8da0c') in 0.015178 seconds
+  Import took 0.019548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be46f9c2c1cafef1e5fe913440e1ad73') in 0.015097 seconds
+  Import took 0.019489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50171dbaac8b528607cb72b8022739d5') in 0.014030 seconds
+  Import took 0.018496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42red.png
+  artifactKey: Guid(526393328fcb04a46a1b4c42f6c97ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42red.png using Guid(526393328fcb04a46a1b4c42f6c97ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ef5955a9399d8fe893268a023418da') in 0.022835 seconds
+  Import took 0.027507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
+  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec66c9f682bbf38c3f73eef545210b4') in 0.013769 seconds
+  Import took 0.018239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42.png
+  artifactKey: Guid(e8c2ef2de35b98e44af944d95a74703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/00_4x42.png using Guid(e8c2ef2de35b98e44af944d95a74703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f42d5e91ff7e007fe1bb88584e8cb1') in 0.013936 seconds
+  Import took 0.018470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SteamVR/Icon/_steamvr.png
+  artifactKey: Guid(200a36575873a1d40baa790e18dafe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Icon/_steamvr.png using Guid(200a36575873a1d40baa790e18dafe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4933fc58e07b58e1facb11b43fea8da5') in 0.018483 seconds
+  Import took 0.023128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2800052b1b00594f47e38792b61606') in 0.014750 seconds
+  Import took 0.019120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f57595cdbddec06bc3d5fe5ec99d1df') in 0.013185 seconds
+  Import took 0.017599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.474077 seconds.
+  path: Assets/SteamVR/InteractionSystem/Longbow/PhysicMaterials/ArcheryTargetPhysMaterial.physicMaterial
+  artifactKey: Guid(c509d5711dc2cc346be2763cd92383ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Longbow/PhysicMaterials/ArcheryTargetPhysMaterial.physicMaterial using Guid(c509d5711dc2cc346be2763cd92383ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450cd74a00a414c7ab8e7f035a572a5e') in 0.014155 seconds
+  Import took 0.018735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/ZomShooter/Materials/FluffParticleMaterial.mat
+  artifactKey: Guid(01ffe1f3679a0894087ea5e74106fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/ZomShooter/Materials/FluffParticleMaterial.mat using Guid(01ffe1f3679a0894087ea5e74106fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893847b85ea5f843ce5c1e7a8cb703f') in 0.239717 seconds
+  Import took 0.244293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/New Material.mat
+  artifactKey: Guid(da829dfe39480e24abbc80424e3b83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/New Material.mat using Guid(da829dfe39480e24abbc80424e3b83dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2baf4c21b4575e4e7e290b0175672b') in 0.017142 seconds
+  Import took 0.022235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/ZomShooter/Materials/EyesMaterial.mat
+  artifactKey: Guid(51d14e0fd3936be48bf8d5031d3e24c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/ZomShooter/Materials/EyesMaterial.mat using Guid(51d14e0fd3936be48bf8d5031d3e24c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db3bcd96dc5075dc4a97d6a3baef7e0') in 0.044111 seconds
+  Import took 0.048333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Textures/Loading/HelveticaNeue Medium.ttf
+  artifactKey: Guid(f0347d4b40918f74aba41da870e47183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Textures/Loading/HelveticaNeue Medium.ttf using Guid(f0347d4b40918f74aba41da870e47183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b760b36327a0696733924e28f0e65c') in 0.031380 seconds
+  Import took 0.035950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Materials/New Material.mat
+  artifactKey: Guid(83c1f9c9f3d69a5469836df9064ff699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Materials/New Material.mat using Guid(83c1f9c9f3d69a5469836df9064ff699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a52b3ae937fbf4aec37430202360b7') in 0.018950 seconds
+  Import took 0.023242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.028753 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Mars/Materials
+  artifactKey: Guid(cae962a41b8cfaf47971c15d3c767fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Mars/Materials using Guid(cae962a41b8cfaf47971c15d3c767fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8687dfa0ab81ada98c0b7c91c957885') in 0.007648 seconds
+  Import took 0.012323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063792 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Mars/Materials/Mars2.mat
+  artifactKey: Guid(3157f319a20ddc2479b421167668ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Mars/Materials/Mars2.mat using Guid(3157f319a20ddc2479b421167668ac0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d84dd10b4c18aec0db5a59f1c64f26c') in 0.041089 seconds
+  Import took 0.045643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.122684 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/gradient.tga
+  artifactKey: Guid(397aaf69f45cc8248a33277a4f8b29f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/gradient.tga using Guid(397aaf69f45cc8248a33277a4f8b29f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef74ec0bf602b3b0813b44e41f11ac6') in 0.023627 seconds
+  Import took 0.028144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/selfIllumin.mat
+  artifactKey: Guid(fe96541e22a91d9438b4fff30234b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/selfIllumin.mat using Guid(fe96541e22a91d9438b4fff30234b0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15165aac39828e0649fefde0384e5ff7') in 0.018329 seconds
+  Import took 0.022918 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3033.
+Total: 3.438000 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.125900 ms MarkObjects: 2.756200 ms  DeleteObjects: 0.134400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.171157 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Ambient_Occlusion.png
+  artifactKey: Guid(c874015fb240efd48bd79209166e441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Ambient_Occlusion.png using Guid(c874015fb240efd48bd79209166e441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febbfb7bac903988bd703ad2e4fca70') in 0.043936 seconds
+  Import took 0.049084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Normal-unity.png
+  artifactKey: Guid(0205e3d5d3abb584e97d55c8cabed366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Normal-unity.png using Guid(0205e3d5d3abb584e97d55c8cabed366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1ee4f0f8923bc2cf42b466b107c33d') in 0.020082 seconds
+  Import took 0.024440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Height.png
+  artifactKey: Guid(1f1bde6dae162464c9173e534b4f12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Height.png using Guid(1f1bde6dae162464c9173e534b4f12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03ac7ae08e07b24d5f41c7196194b5e') in 0.012568 seconds
+  Import took 0.016982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Ambient_Occlusion.png
+  artifactKey: Guid(c874015fb240efd48bd79209166e441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Ambient_Occlusion.png using Guid(c874015fb240efd48bd79209166e441e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7febbfb7bac903988bd703ad2e4fca70') in 0.009506 seconds
+  Import took 0.013902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Base_Color.png
+  artifactKey: Guid(90971acb82b58024394be00ef268f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Base_Color.png using Guid(90971acb82b58024394be00ef268f5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad4ac9bc2ff896293df952c89629f37') in 0.011709 seconds
+  Import took 0.015912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004060 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Height.png
+  artifactKey: Guid(1f1bde6dae162464c9173e534b4f12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Ground/Textures/sandyground1_Height.png using Guid(1f1bde6dae162464c9173e534b4f12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03ac7ae08e07b24d5f41c7196194b5e') in 0.012274 seconds
+  Import took 0.016651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.580360 seconds.
+  path: Assets/ZED/Examples/SimpleMR/Materials/Green.mat
+  artifactKey: Guid(cc388c3aeded1e54dbdf8ce12682b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SimpleMR/Materials/Green.mat using Guid(cc388c3aeded1e54dbdf8ce12682b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76dad392345977cdf1bf4ebe65e8a31') in 0.038394 seconds
+  Import took 0.042995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Materials/GreenLaserMat.mat
+  artifactKey: Guid(ad099328e4097394a83a0108f83beb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Materials/GreenLaserMat.mat using Guid(ad099328e4097394a83a0108f83beb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db90f61e22d6053ff8635b3788e39b91') in 0.101536 seconds
+  Import took 0.106001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Materials/GreenMat.mat
+  artifactKey: Guid(99235b28a239694499441313ea48f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Materials/GreenMat.mat using Guid(99235b28a239694499441313ea48f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c9035e6af57595f740f9ed5f0c0421') in 0.109081 seconds
+  Import took 0.113753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Materials/GreenTransMat.mat
+  artifactKey: Guid(301da6298e128d044910f6adec06fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Materials/GreenTransMat.mat using Guid(301da6298e128d044910f6adec06fe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e431a64d1907dfe74e24cbb79468fb8') in 0.016968 seconds
+  Import took 0.021356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/SteamVR/InteractionSystem/Samples/Materials/LightGreen.mat
+  artifactKey: Guid(80a6bae7122d17d4c9243b982a652788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/InteractionSystem/Samples/Materials/LightGreen.mat using Guid(80a6bae7122d17d4c9243b982a652788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0ee3fdfc41aa9ac48a26b8677b7a9d') in 0.047872 seconds
+  Import took 0.052291 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006395 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.1 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3040.
+Total: 3.624200 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.114000 ms MarkObjects: 2.933500 ms  DeleteObjects: 0.148000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\DISI\Documents\SIV_Franzin_Parola\Rigid-Body Object Tracking\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2380 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3044.
+Total: 3.773800 ms (FindLiveObjects: 0.475200 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.972600 ms  DeleteObjects: 0.166400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 643.429167 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Materials/GreenMat.mat
+  artifactKey: Guid(99235b28a239694499441313ea48f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Materials/GreenMat.mat using Guid(99235b28a239694499441313ea48f6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1b553c61b04c8e6742775fabe81d62') in 0.077544 seconds
+  Import took 0.083672 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
